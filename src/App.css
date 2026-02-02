@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.auth-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #2a1f3a 100%);
+font-family: 'Outfit', sans-serif;
+}
+.auth-background{
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.gradient-orb{
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  animation: float 20s ease-in-out infinite;
+}
+.orb-1{
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #ff6b9d 0%, transparent 70%);
+  top: -10%;
+  left: -10%;
+  animation-delay: 0s;
+}
+.orb-2{
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #4158d0 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  animation-delay: 14s;
+}
+.orb-3{
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, #c850c0 0%, transparent 70%);
+  top: -5%;
+  left: -5%;
+  animation-delay: 7s;
+}
